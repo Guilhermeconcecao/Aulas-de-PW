@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Produtos para seu bem-estar!</title>
+  </head>
+  <body>
+    <!-- cabeçalho -->
+    <header class="menu">
+      <nav>
+        <h1>Saúde e Bem-estar!</h1>
+        <ul>
+          <li><a href="#banner">Oferta do dia</a></li>
+          <li><a href="#products">Produtos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- banner -->
+    <div class="bannercollor">
+      <div class="banner-container" id="banner">
+        <img src="/img/Banner.png" alt="banner" />
+      </div>
+    </div>
+    <!-- produtos -->
+    <div id="products">
+      <h2 class="products-title">Produtos Exclusivos</h2>
+      <div class="products-wrapper">
+        <div class="card">
+          <img
+            class="card-img"
+            src="/img/produto-1.jpeg"
+            alt="Imagem do produto"
+          />
+          <p class="card-product">
+            <strong>NIVEA Loção neo-hidratante Soft Milk</strong>
+          </p>
+          <a class="btn" href="#">Compre agora</a>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="/img/produto-2.jpeg"
+            alt="Imagem do produto"
+          />
+          <p class="card-product"><strong>NIVEA SUN 50 FPS</strong></p>
+          <a class="btn" href="#">Compre agora</a>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="/img/produto-3.jpeg"
+            alt="Imagem do produto"
+          />
+          <p class="card-product">
+            <strong class="especial">SEDA Shampoo e Condicionador </strong>
+          </p>
+          <a class="btn" href="#">Compre agora</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- contato -->
+    <div id="contact">
+      <h2 class="contact-title">Entre em contato conosco!</h2>
+      <form class="contact-form" method="post">
+        <label for="nome">Nome</label>
+        <input name="nome" type="text" readonly />
+        <label for="email">Email</label>
+        <input name="email" type="text" readonly />
+        <label for="mensagem">Mensagem</label>
+        <input name="mensagem" type="text" readonly />
+        <button class="form-button" type="submit">Enviar mensagem</button>
+      </form>
+    </div>
+
+    <!-- rodapé -->
+    <footer>
+      <span
+        ><strong
+          >Copyright &copy; 2024 - Todos os direitos reservados</strong
+        ></span
+      >
+    </footer>
+  </body>
+</html>
